@@ -1,0 +1,59 @@
+
+# ШРИФТ
+font.family:        sans-serif
+font.sans-serif:    Arial
+text.color:         1D2336
+
+# ОСИ
+axes.edgecolor:     1D2336
+axes.labelcolor:    1D2336
+
+axes.grid:          True
+axes.grid.axis:     both
+axes.grid.which:    major
+grid.color:         1D2336
+grid.linestyle:     --
+grid.alpha : 0.1
+grid.linewidth : 1
+
+axes.titlesize : 14
+axes.labelsize : 12
+
+# ЦВЕТА
+axes.prop_cycle: cycler('color', ['00DA72', '4042EE', 'FF92B7', 'E2F700', 'FF5B17', '89A1AE'])
+#                                  зеленый   синий     розовый   желтый    красный   серый
+
+# TICKS
+xtick.color:            1D2336
+xtick.labelcolor:       1D2336
+xtick.direction:        in
+xtick.minor.visible:    False
+xtick.top:              True
+
+ytick.color:            1D2336
+ytick.labelcolor:       1D2336
+ytick.direction:        in
+ytick.minor.visible:    False
+ytick.right:            True
+
+# FIGURE
+figure.dpi :  80
+figure.figsize:     6.4, 4.8
+savefig.dpi : 400
+
+# LINES
+markers.fillstyle:  full
+lines.marker:       o
+
+# BOXPLOT
+boxplot.flierprops.color:           1D2336
+boxplot.flierprops.markeredgecolor: 1D2336
+boxplot.boxprops.color:             1D2336
+boxplot.whiskerprops.color:         1D2336
+boxplot.capprops.color:             1D2336
+
+boxplot.meanprops.color:            00DA72
+boxplot.medianprops.color:          4042EE
+
+# SCATTER PLOT
+scatter.marker : o
